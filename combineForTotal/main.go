@@ -11,7 +11,11 @@ var keepMap map[string]int = make(map[string]int)
 
 func main() {
 
-	// Exhausting()
+	fmt.Println("-----------------Exhausting-------------------------")
+
+	Exhausting()
+
+	fmt.Println("---------------CombineForTotal-----------------------------")
 
 	CombineForTotal()
 
